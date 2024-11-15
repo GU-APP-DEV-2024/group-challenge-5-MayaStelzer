@@ -24,4 +24,12 @@
         app:layout_constraintTop_toBottomOf="@+id/mainActivityButton"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"/>
+    <Button
+        android:id="@+id/epic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Earth Polychromatic Imaging Camera (EPIC)"
+        app:layout_constraintTop_toBottomOf="@+id/nasaButton"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

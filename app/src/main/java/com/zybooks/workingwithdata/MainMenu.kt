@@ -29,5 +29,10 @@ class MainMenu : AppCompatActivity() {
             var intent = Intent(this, NasaAPI::class.java)
             startActivity(intent)
         }
+        var epicButton = findViewById<Button>(R.id.epic)
+        epicButton.setOnClickListener {
+            var intent = Intent(this, EPIC::class.java)
+            startActivity(intent)
+        }
     }
 }
